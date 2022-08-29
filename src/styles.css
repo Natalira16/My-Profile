@@ -226,6 +226,10 @@ p {
     margin-top: 20px;
 }
 
+.icons a {
+    text-decoration: none;
+}
+
 .icon {
     width: 50px;
 }
@@ -283,6 +287,17 @@ p {
 
 .app-image {
     border-radius: 20px;
+}
+
+
+/* ________________________CONTACT PAGE__________________________ */
+
+.contact-title {
+    padding: 160px 20px 60px;
+}
+
+.contact-title h1 {
+    margin-bottom: 0;
 }
 
 
