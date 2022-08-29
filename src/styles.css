@@ -267,6 +267,10 @@ p {
         text-align: center;
     }
 
+    .inquiry-descr h3 {
+        font-size: 38px;
+    }
+
     .hero,
     .about-page {
         padding: 120px 10px 60px;
