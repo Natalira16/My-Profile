@@ -21,6 +21,9 @@ h6 {
     font-weight: bold;
 }
 
+
+/* ________________________HOME PAGE__________________________ */
+
 h1 {
     font-size: 96px;
     margin: 20px 0;
@@ -126,7 +129,7 @@ p {
 }
 
 
-/* __________________________________________________ */
+/* ________________________ABOUT ME PAGE__________________________ */
 
 .main-section {
     padding: 160px 20px 120px;
@@ -253,6 +256,36 @@ p {
 }
 
 
+/* ________________________PROJECTS PAGE__________________________ */
+
+.main-descr h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content h3,
+.content p {
+    font-family: var(--default-font-family);
+}
+
+.content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: var(--main-dark-color);
+}
+
+.app-image {
+    border-radius: 20px;
+}
+
+
 @media (max-width:991.999px) {
 
     .project-description,
@@ -268,7 +301,7 @@ p {
     }
 
     .inquiry-descr h3 {
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .hero,
@@ -298,5 +331,19 @@ p {
     .bgc-navbar,
     .bgc-nav {
         padding: 8px 18px;
+    }
+
+    .main-descr h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 12px;
     }
 }
