@@ -128,26 +128,26 @@ p {
 
 /* __________________________________________________ */
 
-.about-page {
+.main-section {
     padding: 160px 20px 120px;
     align-items: center;
 }
 
-.about-hero {
+.main-hero {
     text-align: right;
 }
 
-.about-descr {
+.main-descr {
     text-align: left;
 }
 
-.about-page h1 {
+.main-section h1 {
     font-size: 64px;
     line-height: 80px;
     margin: 0;
 }
 
-.about-page h2 {
+.main-section h2 {
     font-family: var(--default-font-family);
     font-weight: bold;
     font-size: 18px;
@@ -156,14 +156,14 @@ p {
     margin: 28px auto;
 }
 
-.about-page p {
+.main-section p {
     font-family: var(--default-font-family);
     font-weight: normal;
     font-size: 16px;
     margin: 0;
 }
 
-.about-page a {
+.main-section a {
     background: var(--primary-color);
     color: #fff;
     border-radius: 4px;
@@ -256,7 +256,7 @@ p {
 @media (max-width:991.999px) {
 
     .project-description,
-    .about-descr {
+    .main-descr {
         padding: 0;
         text-align: center;
     }
@@ -272,7 +272,7 @@ p {
     }
 
     .hero,
-    .about-page {
+    .main-section {
         padding: 120px 10px 60px;
     }
 
@@ -289,7 +289,7 @@ p {
         padding-right: 10px;
     }
 
-    .about-page h1 {
+    .main-section h1 {
         font-size: 58px;
         line-height: 70px;
         margin: 0;
