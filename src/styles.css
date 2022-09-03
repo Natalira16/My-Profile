@@ -21,6 +21,12 @@ h6 {
     font-weight: bold;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
 
 /* ________________________HOME PAGE__________________________ */
 
@@ -32,7 +38,7 @@ h1 {
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 160px 20px 60px;
 }
 
 .hero p {
@@ -60,7 +66,11 @@ h1 {
     font-size: 18px;
     line-height: 28px;
     padding: 15px 30px;
-    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 100px 0 40px;
 }
 
 .navbar-items {
@@ -80,9 +90,9 @@ h1 {
     width: 150px;
 }
 
-
 h2 {
     font-size: 64px;
+    margin-bottom: 48px;
 }
 
 p {
@@ -108,7 +118,8 @@ p {
 }
 
 .footer {
-    background-color: var(--secondary-color);
+    margin-top: 48px;
+    background-color: #fff;
 }
 
 .footer p {
@@ -141,7 +152,7 @@ p {
 }
 
 .main-descr {
-    text-align: left;
+    text-align: center;
 }
 
 .main-section h1 {
@@ -238,32 +249,10 @@ p {
     margin-right: 10px;
 }
 
-.footer-about {
-    background-color: #fff;
-}
-
-.footer-about p {
-    color: var(--main-dark-color);
-    opacity: 0.7;
-    font-size: 12px;
-    line-height: 1.2;
-}
-
-.footer-about a {
-    text-decoration: none;
-    color: var(--main-dark-color);
-}
-
-.footer-about a:hover,
-.footer-about a:focus {
-    color: var(--primary-color);
-}
-
 
 /* ________________________PROJECTS PAGE__________________________ */
 
 .main-descr h1 {
-    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -297,11 +286,17 @@ p {
 }
 
 .contact-title h1 {
+    text-align: center;
     margin-bottom: 0;
 }
 
 
+
 @media (max-width:991.999px) {
+
+    .logo {
+        width: 120px;
+    }
 
     .project-description,
     .main-descr {
@@ -309,9 +304,17 @@ p {
         text-align: center;
     }
 
-    .inquiry-section,
+    .subtitle {
+        margin: 50px auto;
+        padding: 0;
+    }
+
+    .inquiry-section {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
     .inquiry-descr {
-        padding: 10px;
         text-align: center;
     }
 
@@ -321,15 +324,20 @@ p {
 
     .hero,
     .main-section {
-        padding: 120px 10px 60px;
+        padding: 120px 10px 40px;
     }
 
     .hero h1 {
-        font-size: 62px;
+        font-size: 58px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
     }
 
     h2 {
-        font-size: 46px;
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     p {
@@ -360,5 +368,23 @@ p {
 
     .content p {
         font-size: 12px;
+    }
+
+    .contact-title {
+        padding: 120px 20px 10px;
+    }
+
+    .contact-title h1 {
+        font-size: 32px;
+    }
+
+    .button a {
+        font-size: 14px;
+        margin-top: 16px;
+        padding: 10px 20px;
+    }
+
+    .footer {
+        margin-top: 18px;
     }
 }
