@@ -87,7 +87,7 @@ h1 {
 }
 
 .logo {
-    width: 150px;
+    width: 250px;
 }
 
 h2 {
@@ -320,7 +320,7 @@ a.contact-link:focus {
 @media (max-width:991.999px) {
 
     .logo {
-        width: 120px;
+        width: 200px;
     }
 
     .project-description,
