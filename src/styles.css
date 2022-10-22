@@ -274,8 +274,38 @@ p {
     color: var(--main-dark-color);
 }
 
-.app-image {
+.app-image1,
+.app-image2 {
+    max-width: 616px;
     border-radius: 20px;
+}
+
+.app-image1 {
+    max-height: 420px;
+}
+
+.app-image2 {
+    max-height: 680px;
+}
+
+
+/* ________________________CERTIFICATES PAGE__________________________ */
+
+.strong {
+    font-weight: 700;
+}
+
+.certificates {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.certificates-title {
+    font-size: 78px;
+}
+
+.certificates-subtitle {
+    font-size: 56px;
 }
 
 
@@ -315,9 +345,13 @@ a.contact-link:focus {
     color: var(--primary-color);
 }
 
+p.link-title {
+    color: rgba(108, 99, 255, 0.8);
+}
 
 
-@media (max-width:991.999px) {
+
+@media (max-width:1120px) {
 
     .logo {
         width: 200px;
