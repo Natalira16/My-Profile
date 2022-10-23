@@ -276,17 +276,20 @@ p {
 
 .app-image1,
 .app-image2 {
-    max-width: 616px;
     border-radius: 20px;
 }
 
-.app-image1 {
-    max-height: 420px;
-}
+/* @media (min-width:1120px) {
+    .app-image1 {
+        max-width: 616px;
+        max-height: 420px;
+    }
 
-.app-image2 {
-    max-height: 680px;
-}
+    .app-image2 {
+        max-width: 616px;
+        max-height: 680px;
+    }
+} */
 
 
 /* ________________________CERTIFICATES PAGE__________________________ */
