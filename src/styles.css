@@ -326,6 +326,7 @@ p {
 ul.contact-box {
     list-style: none;
     margin-top: 50px;
+    padding: 0;
 }
 
 .contact-box p {
@@ -341,6 +342,7 @@ a.contact-link {
     opacity: 0.8;
     font-size: 16px;
     transition: all 100ms ease-in-out;
+    padding: 0;
 }
 
 a.contact-link:hover,
@@ -350,6 +352,7 @@ a.contact-link:focus {
 
 p.link-title {
     color: rgba(108, 99, 255, 0.8);
+    padding: 0;
 }
 
 
